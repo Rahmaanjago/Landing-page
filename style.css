@@ -1,0 +1,594 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 6rem 3rem 3rem;
+  background-color: hsl(218, 28%, 13%);
+  font-weight: 700;
+}
+
+.logo img {
+  width: 10rem;
+}
+
+.nav_bar ul {
+  display: flex;
+  gap: 3rem;
+}
+.nav_bar ul li {
+  list-style: none;
+}
+
+.nav_bar ul li a {
+  text-decoration: none;
+  color: rgb(155, 154, 154);
+}
+
+.section01 {
+  padding: 4rem 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5rem;
+  background-color: hsl(218, 28%, 13%);
+}
+
+.intro_text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding-top: 2rem;
+  background-image: url(images/bg-curvy-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.intro_text h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.intro_text p {
+  font-size: 21px;
+  line-height: 1.5rem;
+}
+
+.intro_button {
+  background-color: hsl(198, 60%, 50%);
+  color: hsl(0, 0%, 100%);
+  width: fit-content;
+  padding: 1.2rem 6rem;
+  border: none;
+  border-radius: 1.5rem;
+  font-weight: 700;
+}
+
+.section02 {
+  padding: 8rem 15rem 5rem;
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(218, 28%, 13%);
+}
+
+.access,
+.security,
+.collaborate,
+.file {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.section03 {
+  padding: 0rem 15rem 8rem;
+  display: flex;
+  gap: 5rem;
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(218, 28%, 13%);
+}
+
+.section04 {
+  padding: 0rem 10rem 8rem 5rem;
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(218, 28%, 13%);
+}
+
+.productive_text {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.productive_text h3 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.productive_text a {
+  width: fit-content;
+  text-decoration: none;
+  color: hsl(176, 68%, 64%);
+  border-bottom: 2px solid hsl(176, 68%, 64%);
+  padding-bottom: 0.5rem;
+  display: flex;
+  gap: 0.3rem;
+}
+
+.quote {
+  background-color: hsl(218, 28%, 13%);
+}
+.quote img {
+  padding-left: 5rem;
+  width: 7.5rem;
+}
+
+.section05 {
+  display: flex;
+  gap: 2rem;
+  padding: 0rem 5rem 8rem;
+  background-color: hsl(218, 28%, 13%);
+}
+
+.Satish_section,
+.Bruce_section,
+.Iva_section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: hsl(219, 30%, 18%);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  color: white;
+}
+
+.Satish_profile,
+.Bruce_profile,
+.Iva_profile {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.Satish_profile img,
+.Bruce_profile img,
+.Iva_profile img {
+  width: 3rem;
+  border-radius: 6rem;
+}
+
+.Satish_profile div,
+.Bruce_profile div,
+.Iva_profile div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section06 {
+  padding: 0rem 15rem 4rem;
+  background-color: hsl(218, 28%, 13%);
+}
+
+.section06 div {
+  background-color: hsl(217, 28%, 15%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 5rem;
+  border-radius: 0.5rem;
+}
+
+.section06 div h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.section06 div p {
+  font-size: small;
+  font-weight: 700;
+}
+
+.section06 form {
+  display: flex;
+  gap: 2rem;
+}
+
+form .email {
+  padding: 1rem 7rem;
+  border: none;
+  border-radius: 2rem;
+}
+
+.button {
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  color: white;
+  background-color: hsl(198, 60%, 50%);
+}
+
+footer {
+  background-color: hsl(218, 28%, 13%);
+  color: white;
+  padding: 6rem 6rem 4rem;
+  display: flex;
+  gap: 2rem;
+  justify-content: space-evenly;
+}
+
+.about {
+  display: flex;
+  width: 20rem;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.logo02 {
+  width: 13rem;
+}
+
+.about_text {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.about_text img {
+  width: 1rem;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-top: 5rem;
+}
+
+.address01,
+.address02 {
+  display: flex;
+  gap: 2rem;
+}
+
+.explore ul,
+.contact ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  list-style: none;
+  padding-top: 5rem;
+}
+
+.explore ul li a,
+.contact ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer_icon ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+@media only screen and (max-width: 770px) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a,
+  li,
+  ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    background-color: hsl(218, 28%, 13%);
+  }
+
+  .logo img {
+    width: 5rem;
+  }
+
+  .nav_bar ul {
+    display: flex;
+    gap: 1.5rem;
+  }
+  .nav_bar ul li {
+    list-style: none;
+  }
+
+  .nav_bar ul li a {
+    text-decoration: none;
+    color: rgb(155, 154, 154);
+  }
+
+  .section01 {
+    padding: 1rem 1.5rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0.5rem;
+    background-color: hsl(218, 28%, 13%);
+  }
+
+  .intro img {
+    width: 20rem;
+  }
+
+  .intro_text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 2rem;
+    background-image: url(images/bg-curvy-mobile.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .intro_button {
+    background-color: hsl(198, 60%, 50%);
+    color: hsl(0, 0%, 100%);
+    width: fit-content;
+    padding: 1.2rem 5rem;
+    border: none;
+    border-radius: 1.5rem;
+  }
+
+  .section02 {
+    padding: 8rem 1.5rem 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(218, 28%, 13%);
+  }
+
+  .access,
+  .security,
+  .collaborate,
+  .file {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .section03 {
+    padding: 0rem 1.5rem 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(218, 28%, 13%);
+  }
+
+  .section04 {
+    padding: 0rem 1.5rem 8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(218, 28%, 13%);
+  }
+
+  .productive img {
+    width: 20rem;
+  }
+
+  .productive_text {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .productive_text a {
+    width: fit-content;
+    text-decoration: none;
+    color: hsl(176, 68%, 64%);
+    border-bottom: 2px solid hsl(176, 68%, 64%);
+    padding-bottom: 0.5rem;
+    display: flex;
+    gap: 0.3rem;
+  }
+
+  .quote {
+    background-color: hsl(218, 28%, 13%);
+  }
+  .quote img {
+    padding-left: 2.5rem;
+    width: 3.5rem;
+  }
+
+  .section05 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0rem 2.5rem 8rem;
+    background-color: hsl(218, 28%, 13%);
+  }
+
+  .Satish_section,
+  .Bruce_section,
+  .Iva_section {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: hsl(219, 30%, 18%);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: white;
+  }
+
+  .Satish_profile,
+  .Bruce_profile,
+  .Iva_profile {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .Satish_profile img,
+  .Bruce_profile img,
+  .Iva_profile img {
+    width: 3rem;
+    border-radius: 6rem;
+  }
+
+  .Satish_profile div,
+  .Bruce_profile div,
+  .Iva_profile div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .section06 {
+    padding: 0rem 1.5rem 4rem;
+    background-color: hsl(218, 28%, 13%);
+  }
+
+  .section06 div {
+    background-color: hsl(217, 28%, 15%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 1.5rem;
+    border-radius: 0.5rem;
+  }
+
+  .section06 form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  form .email {
+    padding: 0.8rem 3rem 0.8rem 1rem;
+    border: none;
+    border-radius: 2rem;
+  }
+
+  .button {
+    padding: 1rem 5rem;
+    border: none;
+    border-radius: 2rem;
+    color: white;
+    background-color: hsl(198, 60%, 50%);
+  }
+
+  footer {
+    background-color: hsl(218, 28%, 13%);
+    color: white;
+    padding: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .logo02 {
+    width: 12rem;
+  }
+
+  .about_text {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+
+  .about_text img {
+    width: 2rem;
+  }
+
+  .address {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .address01,
+  .address02 {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .explore ul,
+  .contact ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    list-style: none;
+  }
+
+  .explore ul li a,
+  .contact ul li a {
+    text-decoration: none;
+    color: white;
+  }
+}
